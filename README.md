@@ -29,6 +29,10 @@ github.com/tensorflow/tensorflow/tensorflow/go
 To create the training and testing data, see `stockfish_eval.py`. This is a multi-threaded python script that uses Stockfish to label static positions. You will need to provide a `.pgn` file for the collection of board positions. We suggest using a `.pgn` from the [Lichess Database](https://database.lichess.org/), as this provides virtually limitless positions from human games. To perform artificial dataset expansion (as mentioned in the paper), you may use `expand_dataset.py`. This script will generate and label random positions, which we found to increase playing performance in the final model.
 
 ## Inference
+A trained model can be downloaded here: https://drive.google.com/file/d/1Jns6TtHKrsNMj7Cx3burZxQHA3p2joIP/view?usp=sharing (~60 mb). Please extract the contents to `.\look_ahead\static_evaluation_model\`. This directory should now contain:
+
+`.\look_ahead\static_evaluation_model\variables\...`, and `cd .\look_ahead\static_evaluation_model\saved_model.pb`
+
 To run the look ahead algorithm in terminal (GPU required):
 ```
 > cd .\look_ahead\
