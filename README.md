@@ -31,7 +31,7 @@ To create the training and testing data, see `stockfish_eval.py`. This is a mult
 ## Inference
 A trained model can be downloaded here: https://drive.google.com/file/d/1Jns6TtHKrsNMj7Cx3burZxQHA3p2joIP/view?usp=sharing (~60 mb). Please extract the contents to `.\look_ahead\static_evaluation_model\`. This directory should now contain:
 
-`.\look_ahead\static_evaluation_model\variables\...`, and `cd .\look_ahead\static_evaluation_model\saved_model.pb`
+`.\look_ahead\static_evaluation_model\variables\...`, and `.\look_ahead\static_evaluation_model\saved_model.pb`
 
 To run the look ahead algorithm in terminal (GPU required):
 ```
@@ -42,4 +42,4 @@ You will be prompted to input a chess position. Copy-paste a FEN string into the
 
 ## Datasets
 
-Due to the size of the datasets used in this paper, we cannot include them in repository. The datasets will be made available by email request (arman@cs.utexas.edu). The primary dataset, which contains upwards of 30 million labelled chess positions, is nearly 2 gigabytes. This dataset was used for training and testing the deep autoencoder, classifier, and static evaluation function. 
+Due to the size of the datasets used in this paper, we cannot include them in this repository. The datasets will be made available by email request (arman@cs.utexas.edu). The primary dataset, which contains upwards of 30 million labelled chess positions, is nearly 2 gigabytes. This dataset was used for training and testing the deep autoencoder, classifier, and static evaluation function. 
