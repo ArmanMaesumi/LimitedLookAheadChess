@@ -1,7 +1,7 @@
 # Playing Chess with Limited Look Ahead
 Authors: Arman Maesumi
 
-[(preprint)](https://www.cs.utexas.edu/~arman/PlayingChessWithLimitedLookAhead_preprint.pdf), arXiv submission pending
+[(preprint)](https://arxiv.org/abs/2007.02130)
 
 ## Abstract
 We have seen numerous machine learning methods tackle the game of chess over the years. However, one common element in these works is the necessity of a finely optimized look ahead algorithm. The particular interest of this research lies with creating a chess engine that is highly capable, but restricted in its look ahead depth. We train a deep neural network to serve as a static evaluation function, which is accompanied by a relatively simple look ahead algorithm. We show that our static evaluation function has encoded some semblance of look ahead knowledge, and is comparable to classical evaluation functions. The strength of our chess engine is assessed by comparing its proposed moves against those proposed by Stockfish. We show that, despite strict restrictions on look ahead depth, our engine recommends moves of equal strength in roughly 83% of our sample positions.
