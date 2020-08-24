@@ -42,4 +42,4 @@ You will be prompted to input a chess position. Copy-paste a FEN string into the
 
 ## Datasets
 
-Due to the size of the datasets used in this paper, we cannot include them in this repository. The datasets will be made available by email request (arman@cs.utexas.edu). The primary dataset, which contains upwards of 30 million labelled chess positions, is nearly 2 gigabytes. This dataset was used for training and testing the deep autoencoder, classifier, and static evaluation function. 
+Due to the size of the datasets used in this paper, we cannot include them in this repository. The datasets will be made available by email request (arman@cs.utexas.edu). The primary dataset, which contains upwards of 30 million chess positions (21 million of which are labelled), is nearly 2 gigabytes. This dataset was used for training and testing the deep autoencoder, classifier, and static evaluation function. 
